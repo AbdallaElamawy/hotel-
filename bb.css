@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url(ww.jpg);
+    padding:10px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: inherit;
+    z-index: 999;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    
+    
+}
+.hlogo a{
+    color: white;
+    text-decoration: none;
+
+
+}.hlinks a {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding-left: 30px;
+    transition: 0.5s;
+    opacity: 0.6;
+
+}
+.hlinks a:hover {
+    opacity: 1;
+    
+
+}section{
+    padding: 30px 60px
+}.main {
+    width: 100%;
+    /* vh=viewport */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image:url(hotel\ ext.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    
+    
+  
+    /* you change fixed by scroll try it after you finish */
+
+}.main h2{
+    font-size: 2.4em;
+    color:black;
+    font-weight: 600;
+}.main span{
+    font-size: 1.4em;
+    font-size: 800;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 13px;
+}.main h3{
+    font-size: 1.8em;
+    margin-top: 45px;
+    letter-spacing: 2px;
+}.main h4{
+    font-size: 1.7em;
+    margin-top: 45px;
+    letter-spacing: 2px;
+    display: block;
+
+}.main .a_btn{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 1.6em;
+    display: inline-block;
+    margin-bottom: 36px;
+    margin-top: 26px;
+    border-radius: 43px;
+    padding: 0.9587em 2.1875em;
+}.h2_room{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 1.9em;
+    font-weight: 800;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: bisque;
+    width: fit-content;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.int-image img{
+    border-radius: 25px;
+    margin: 10px;
+    width: 500px;
+  height: 300px;
+    
+
+}
