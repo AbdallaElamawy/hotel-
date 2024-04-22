@@ -116,3 +116,59 @@ header{
     
 
 }
+.mission .back{
+    background-color: rgb(10, 8, 100);
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+.mission .hvis{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+margin-bottom: 40px;
+font-size: 1.9em;
+}.back_c .view_more{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+
+}.foot .mfoot{
+    color: white;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}.foot{
+    background-color: blue;
+}
+.form{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}.hform .h2form{
+    display: flex;
+    justify-content: center;
+}
+.form .ff1{
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 100%;
+    overflow: hidden;
+
+}.formc label{
+    /* padding-left: 30px; */
+    
+}
